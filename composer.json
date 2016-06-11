@@ -1,0 +1,26 @@
+{
+    "name": "swellphp/swell",
+    "description": "A very simple and non-intrusive php framework based on top of Symfony components and other cool packages.",
+    "keywords": ["php", "development", "workflow"],
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keith Mifsud",
+            "email": "mifsud.k@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Swell\\": "src/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+
+    },
+    "replace": {
+        "swellphp/swell": "self.version"
+    }
+}
