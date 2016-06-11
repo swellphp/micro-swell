@@ -1,6 +1,6 @@
 {
     "name": "swellphp/micro-swell",
-    "description": "A very simple and non-intrusive php framework based on top of Symfony components and other cool packages.",
+    "description": "A very simple and non-intrusive php micro-framework based on top of Symfony components and other cool packages.",
     "keywords": ["php", "development", "workflow"],
     "license": "MIT",
     "authors": [
@@ -9,17 +9,19 @@
             "email": "mifsud.k@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Swell\\": "src/"
-        }
-    },
     "require-dev": {
         "phpunit/phpunit": "4.*",
         "phpspec/phpspec": "~2.0"
     },
-    "replace": {
-        "swellphp/swell": "self.version"
+    "autoload": {
+        "psr-4": {
+            "Swell\\Micro\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swell\\Micro\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "branch-alias": {
