@@ -2,7 +2,6 @@
     "name": "swellphp/swell",
     "description": "A very simple and non-intrusive php framework based on top of Symfony components and other cool packages.",
     "keywords": ["php", "development", "workflow"],
-    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
