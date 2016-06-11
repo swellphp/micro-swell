@@ -12,15 +12,19 @@
  * @version 1.0 First Release
  */
 
-namespace Swell\Micro;
+namespace Swell\Micro\Tests;
 
 
 /**
- * @ToDo something, anything!!!
+ * Tests that the test suite works
  *
- * @package Swell\Micro
+ * @package Swell\Micro\Tests
  */
-class Swell
+class TestForTests extends \PHPUnit_Framework_TestCase
 {
+    public function testTestingSuite()
+    {
+        $this->assertTrue(true);
+    }
 
 }
