@@ -15,10 +15,9 @@
             "Swell\\": "src/"
         }
     },
-    "require": {
-    },
     "require-dev": {
-
+        "phpunit/phpunit": "4.*",
+        "phpspec/phpspec": "~2.0"
     },
     "replace": {
         "swellphp/swell": "self.version"
