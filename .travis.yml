@@ -23,4 +23,4 @@ script: vendor/bin/phpunit
 matrix:
     include:
         - php: 7.0
-        - php: hhvm
+      # - php: hhvm - @see https://github.com/swellphp/micro-swell/issues/10
