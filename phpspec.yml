@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: Swell\Tests
+    psr4_prefix: Swell\Tests
